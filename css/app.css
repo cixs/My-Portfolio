@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    width: 800px;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(203, 255, 80);
+    margin-left: 200px;
+}
+
+.header h1,
+h3 {
+    text-align: right;
+    display: block;
+}
+.wrapper {
+
+    width: 100%;
+    background: rgb(100, 248, 144);
+    padding: 10px;
+    height:250px;
+}
+.container {
+    float: left;
+    width: 100%;
+    background: rgb(143, 171, 248);
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    background: rgb(114, 227, 255);
+}
+
+.content {
+    margin-left: 200px;
+    background: rgb(252, 239, 0);
+}
+
+.main-content {
+    background: rgb(253, 107, 180);
+}
+
+.featured-work {
+    background: rgb(149, 167, 245);
+}
+
+.footer {
+    background: rgb(0, 216, 245);
+    width: 100%;
+    padding: 10px;
+}
