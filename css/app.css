@@ -87,6 +87,11 @@ h6 {
     padding-top: 15px;
 }
 
+.main-content img{
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover
+}
 .main-content h6 {
     text-align: right;
     color: #939fa7;
@@ -157,6 +162,7 @@ footer {
     margin-left: 12%;
     margin-top: 30px;
     padding-top: 0.25em;
+    border-top: 1px solid #888;
 }
 
 @media screen and (min-width: 160px)and (max-width: 480px) {
@@ -180,6 +186,7 @@ footer {
     footer {
         margin-left: 0;
         width: 100%;
+        font-size: 60%;
     }
     .header {
         font-size: 60%;
@@ -191,6 +198,12 @@ footer {
         width: 100%;
         height: auto;
         padding-bottom: 30px;
+    }
+    .site-item h2, h6 {
+        font-size: 50%;
+    }
+    .featured-work h2{
+        font-size: 80%;
     }
 }
 
@@ -209,15 +222,18 @@ footer {
     .site-item img {
         height: 120px;
     }
-    .site-item h2,
-    h6 {
-        font-size: 70%
+    .site-item h2, h6 {
+        font-size: 75%;
+    }
+    .featured-work h2{
+        font-size: 90%;
     }
     .header,
     .content,
     footer {
         margin-left: 0;
-        width: 100%
+        width: 100%;
+        font-size: 80%;
     }
     .logo {
         width: 60px;
